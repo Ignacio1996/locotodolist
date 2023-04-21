@@ -1,0 +1,166 @@
+.addToDo {
+  position: absolute;
+  top: 601px;
+  left: 69px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #7d7d94;
+  display: inline-block;
+  width: 343px;
+}
+.divider {
+  position: absolute;
+  top: 589px;
+  left: 64px;
+  background-color: #434343;
+  width: 377px;
+  height: 1px;
+}
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.updateFlow {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 343px;
+}
+.todopending,
+.todopending1,
+.todopending2 {
+  position: absolute;
+  top: 526px;
+  left: 64px;
+  width: 377px;
+  height: 24px;
+}
+.todopending1,
+.todopending2 {
+  top: 477px;
+}
+.todopending2 {
+  top: 428px;
+}
+.exportToBuilder {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 358px;
+}
+.todocomplete,
+.todopending3 {
+  position: absolute;
+  top: 379px;
+  left: 64px;
+  width: 377px;
+  height: 24px;
+}
+.todocomplete {
+  top: 330px;
+}
+.todocomplete1 {
+  top: 281px;
+  height: 24px;
+}
+.divider1,
+.todocomplete1,
+.todocomplete2 {
+  position: absolute;
+  left: 64px;
+  width: 377px;
+}
+.todocomplete2 {
+  top: 232px;
+  height: 24px;
+  color: #7d7d94;
+}
+.divider1 {
+  top: 199px;
+  background-color: #434343;
+  height: 1px;
+}
+.toDo,
+.userFeedbackTomorrow {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.toDo {
+  top: 0;
+  font-weight: 800;
+}
+.userFeedbackTomorrow {
+  top: 81.55%;
+  font-size: 16px;
+  color: #9494b8;
+}
+.titleNotes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 305px;
+  height: 103px;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  top: 28.57%;
+  left: 28.57%;
+  font-weight: 800;
+}
+.emoji,
+.header {
+  position: absolute;
+  overflow: hidden;
+}
+.emoji {
+  top: 0;
+  left: 321px;
+  border-radius: 6px;
+  background-color: #24242d;
+  border: 1px solid #29292f;
+  box-sizing: border-box;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+}
+.header {
+  top: 64px;
+  left: 64px;
+  width: 377px;
+  height: 103px;
+  font-size: 56px;
+  color: #fff;
+}
+.todolistcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1e1f25;
+  width: 505px;
+  height: 705px;
+}
+.toDoListDesign {
+  position: relative;
+  width: 100%;
+  height: 705px;
+  text-align: left;
+  font-size: 18px;
+  color: #dadada;
+  font-family: Inter;
+}
