@@ -21,22 +21,43 @@ const ToDoListDesign = () => {
     }
   };
 
-  // toggle todo
-  const toggleTodo = (index) => {};
+  // toggle to do
+  const toggleTodo = (index) => {
+    let copyTodos = [...todos];
+    copyTodos[index].done = !copyTodos[index].done;
+    setTodos(copyTodos);
+  };
+
+  // delete to do
+  const deleteTodo = (index) => {
+    let copyTodos = [...todos];
+    copyTodos.splice(index, 1);
+    setTodos(copyTodos);
+  };
 
   return (
     <div className={styles.toDoListDesign}>
       <div className={styles.todolistcontainer}>
         <Header />
         <div className={styles.divider} />
-        {todos.map((todo) => {
+        {todos.map((todo, index) => {
           if (todo.done) {
             return (
-              <ToDoComplete todoValue={todo.value} toggleTodo={toggleTodo} />
+              <ToDoComplete
+                index={index}
+                todoValue={todo.value}
+                toggleTodo={toggleTodo}
+                deleteTodo={deleteTodo}
+              />
             );
           } else {
             return (
-              <ToDoIncomplete todoValue={todo.value} toggleTodo={toggleTodo} />
+              <ToDoIncomplete
+                index={index}
+                todoValue={todo.value}
+                toggleTodo={toggleTodo}
+                deleteTodo={deleteTodo}
+              />
             );
           }
         })}
